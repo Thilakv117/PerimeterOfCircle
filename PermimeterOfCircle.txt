@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main
+{
+  public static void main(String args[])
+  {
+  Scanner sc = new Scanner(System.in);
+  System.out.print("Enetr the Radius: ");
+  double Radius = sc.nextDouble();
+  double PerimeterOfCircle = 0;
+  PerimeterOfCircle = 2 * Math.PI * Radius;
+  System.out.println(PerimeterOfCircle);
+  }
+}
+
